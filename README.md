@@ -9,7 +9,7 @@ The project has various phases:
 * Finally testing the entire system on a real ground rover
 
 ## Problem Scenario
-
+The attacker bot has to avoid the defender bot and reach a pre-determined goal position. The bots have access of each other's GPS location. (The goal of the defender is touch the attacker bot, thus avoiding it to reach the goal position)
 
 # Hardware Building
 
