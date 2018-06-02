@@ -30,6 +30,9 @@ The receiver being attached to the above setup:
 <br/>
 
 The motor driver is being operated in **differential drive** mode. Below shows a video of the rover being operated in manual mode:
+![Manual Video](https://github.com/adityajain07/SITL_Simulation-Ardurover-P_Controller/blob/master/thumbnail.png)](https://www.youtube.com/watch?v=ZhnLZOoGwi0&feature=youtu.be "Simulation Video")
+<br/>
+<br/>
 
 ## Autopilot and RPi Installation
 The autopilot (Pixhawk) is setup on the rover. It draws power from the Li-ion battery (blue colour), which also powers the motors. RPi is also deployed which is being powered by the power bank (white colour). The ROS system runs on the RPi which sends commands to the autopilot to control the rover. ArduPilot documentation for first-time autopilot setup: http://ardupilot.org/rover/docs/apmrover-setup.html <br/>
