@@ -57,3 +57,13 @@ Below shows the simulation for the same:<br/>
 
 
 # Deployment on Ground Rover
+The controller, path planning and path following was then tested on the real rover. Some points to note:
+
+* In case you face geolibrary issue after installing ROS on RPi: (this library needs to be installed manually): https://github.com/mavlink/mavros/blob/master/mavros/README.md
+
+* Setting permission for the USB port (so that the RPi can give commands to the Pixhawk via the USB cable): sudo chmod 666 /dev/ttyACM0
+
+* Command for connecting your RPi (with ROS running) to the autopilot: roslaunch mavros apm2.launch fcu_url:=serial:///dev/ttyACM0:921600
+
+Below video shows the rover running with all the systems deployed:
+[![Manual Video](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/pot_field.png)](https://youtu.be/UdvXVk8Mf14 "Manual Video")
