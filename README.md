@@ -49,8 +49,11 @@ In order to safegaurd the compass from the magnetic interference of motors and w
 The SITL simulation of ArduRover can be setup by following this project: https://github.com/adityajain07/SITL-Simulation_Ardurover_P-Controller. It includes instructions to set up the simulation, writing your controller and tuning the PID gains.
 
 ## Path Planning Algorithm
-In order to avoid the defender bot and at the same time reach the goal position, the concept of potential fields was applied. Read more about it: https://pdfs.semanticscholar.org/725e/fa1af22f41dcbecd8bd445ea82679a6eb7c6.pdf. The code can be found in 'Potential_Fields.py'. <br/>
-Below shows the simulation for the same:
+In order to avoid the defender bot and at the same time reach the goal position, the concept of potential fields was applied. Read more about it: https://pdfs.semanticscholar.org/725e/fa1af22f41dcbecd8bd445ea82679a6eb7c6.pdf. The code can be found in 'Potential_Fields.py'. The goal position can be defined in 'waypoints.txt' and obstacle position is to be mentioned in the python script itself.
+<br/>
+<br/>
+Below shows the simulation for the same:<br/>
+[![Manual Video](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/Screen%20Shot%202018-06-02%20at%207.10.25%20PM.png)](https://www.youtube.com/watch?v=C4m1UPOL8Ak "Manual Video")
 
 
 # Deployment on Ground Rover
