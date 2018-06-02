@@ -30,7 +30,7 @@ The receiver being attached to the above setup:
 <br/>
 
 The motor driver is being operated in **differential drive** mode. Below shows a video of the rover being operated in manual mode:
-![Manual Video](https://github.com/adityajain07/SITL_Simulation-Ardurover-P_Controller/blob/master/thumbnail.png)](https://www.youtube.com/watch?v=ZhnLZOoGwi0 "Manual Video")
+![Manual Video](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/Screen%20Shot%202018-06-02%20at%207.10.25%20PM.png)](https://www.youtube.com/watch?v=ZhnLZOoGwi0 "Manual Video")
 <br/>
 <br/>
 
