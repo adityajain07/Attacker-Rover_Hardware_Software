@@ -53,7 +53,7 @@ In order to avoid the defender bot and at the same time reach the goal position,
 <br/>
 <br/>
 Below shows the simulation for the same:<br/>
-[![Manual Video](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/Screen%20Shot%202018-06-02%20at%207.10.25%20PM.png)](https://www.youtube.com/watch?v=C4m1UPOL8Ak "Manual Video")
+[![Manual Video](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/pot_field.png)](https://www.youtube.com/watch?v=C4m1UPOL8Ak "Manual Video")
 
 
 # Deployment on Ground Rover
