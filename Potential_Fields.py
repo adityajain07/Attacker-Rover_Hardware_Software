@@ -33,7 +33,7 @@ def hdgCallback(data):
 
 
 
-# This function returns the lat,long of the bot, calls the carrot function and publishes the velocity commands
+# This function returns the lat,long of the bot
 def posCallback(data):	
 
 	wayList = readWaypoints()
