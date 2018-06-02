@@ -12,8 +12,31 @@ The project has various phases:
 The attacker bot has to avoid the defender bot and reach a pre-determined goal position. The bots have access of each other's GPS location. (The goal of the defender is touch the attacker bot, thus avoiding it to reach the goal position)
 
 # Hardware Building
+The below shows the various parts used to build the bot i.e. chasis, tires, battery etc.
+![alt text](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/IMG_20180227_113330963.jpg) <br/>
 
 
+The motors being attached on the sides:
+![alt text](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/IMG_20180227_141142109.jpg) <br/>
+
+
+The motors and battery (including the switch) being attached to the motor driver (The motor driver being used is Sabertooth 2x12):
+![alt text](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/IMG_20180227_141142109.jpg) <br/>
+
+The receiver being attached to the above setup:
+![alt text](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/IMG_20180313_091128471.jpg) <br/>
+
+The motor driver is being operated in **differential drive** mode. Below shows a video of the rover being operated in manual mode:
+
+## Autopilot and RPi Installation
+The autopilot (Pixhawk) is setup on the rover. It draws power from the Li-ion battery (blue colour), which also powers the motors. RPi is also deployed which is being powered by the power bank (white colour). The ROS system runs on the RPi which sends commands to the autopilot to control the rover. ArduPilot documentation for first-time autopilot setup: http://ardupilot.org/rover/docs/apmrover-setup.html <br/>
+
+![alt text](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/IMG_20180418_195946615.jpg) <br/>
+
+In order to safegaurd the compass from the magnetic interference of motors and wires, the compass module was raised from the base as shown below:
+![alt text](https://github.com/adityajain07/Attacker-Rover_Hardware_Software/blob/master/Photos/IMG_20180429_154743374.jpg) <br/>
+
+ 
 # Simulation Testing
 
 
